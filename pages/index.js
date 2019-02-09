@@ -1,1 +1,3 @@
-export default () => <div>Welcome to next.js!</div>
+import './foo.scss';
+
+export default () => <div>Welcome to next.js!</div>;
