@@ -4,10 +4,10 @@ const withSass = require('@zeit/next-sass');
 const withTM = require('next-plugin-transpile-modules');
 
 module.exports = withPlugins([
+  withSass,
   withTM({
     transpileModules: ['empty'],
   }),
-  withSass,
 ], {
   webpack: (config, { dev }) => {
     throw "custom webpack config";
