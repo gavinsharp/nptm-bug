@@ -10,6 +10,6 @@ module.exports = withPlugins([
   withSass,
 ], {
   webpack: (config, { dev }) => {
-    throw 1;
+    throw "custom webpack config";
   },
 });
