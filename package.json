@@ -1,0 +1,24 @@
+{
+  "name": "nptm-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Gavin Sharp <gavin@gavinsharp.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "empty": "^0.10.1",
+    "next": "^7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-plugin-transpile-modules": "^1.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
