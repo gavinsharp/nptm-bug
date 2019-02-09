@@ -6,10 +6,10 @@ const withTM = require('next-plugin-transpile-modules');
 module.exports = withPlugins([
   withTM({
     transpileModules: ['empty'],
+    webpack: (config, { dev }) => {
+      throw "custom webpack config";
+    },
   }),
   withSass,
 ], {
-  webpack: (config, { dev }) => {
-    throw "custom webpack config";
-  },
 });
